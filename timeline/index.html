@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Project 3 Site</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="description" content=""/>
+    <link rel="stylesheet" type="text/css" href="../style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/agate.min.css">
+    <link rel="icon" href="../assets/favicon.ico">
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="/">Home</a></li>
+        <li class="navbar-active"><a href="./">Timeline</a></li>
+        <li><a href="../poster">Poster</a></li>
+    </ul>
+    
+    <h1>Timeline</h1>
+    <div class="timeline-container">
+        <div id="timeline">
+            <div class="timeline-box" data-code="fortran">
+                <img src="./assets/fortran.png">
+                <div>
+                    <h2>Fortran - 1957</h2>
+                    <p>The very first high-level programming language, designed for scientific and engineering calculations.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-box" data-code="cobol">
+                <img src="./assets/cobol.png">
+                <div>
+                    <h2>COBOL - 1958</h2>
+                    <p>A language created for business and administrative purposes. It was commonly used in financial applications.</p>
+                </div>
+            </div>
+
+            <div class="timeline-box" data-code="basic">
+                <img src="./assets/basic.png">
+                <div>
+                    <h2>BASIC - 1964</h2>
+                    <p>
+                        Designed to be simple and easy for beginners to learn. 
+                        It was included with many computers at the time and significantly influenced personal computing.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-box" data-code="c">
+                <img src="./assets/c.png">
+                <div>
+                    <h2>C - 1970</h2>
+                    <p>
+                        Provided low-level access to memory whist maintaining high-level features.
+                        Impacted nearly all future imperative languages and is still widely used today.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-box" data-code="smalltalk">
+                <img src="./assets/smalltalk.png">
+                <div>
+                    <h2>Smalltalk - 1972</h2>
+                    <p>Introduced object-oriented programming and was influential in develping GUIs.</p>
+                </div>
+            </div>
+
+            <div class="timeline-box" data-code="cpp">
+                <img src="./assets/cpp.png">
+                <div>
+                    <h2>C++ - 1983</h2>
+                    <p>
+                        A successor to C that introduced object-oriented features and an extended standard library.
+                        It's also widely used today and is more popular than C.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-box" data-code="python">
+                <img src="./assets/python.png">
+                <div>
+                    <h2>Python - 1995</h2>
+                    <p>
+                        Emphasizes readability and simplicity, commonly used for machine learning and data analysis,
+                        but is capable of nearly anything, making it the most popular programming language as of 2024.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-box" data-code="java">
+                <img src="./assets/java.png">
+                <div>
+                    <h2>Java - 1995</h2>
+                    <p>An object oriented language that is designed to be portable and secure. Often used in enterprise and mobile applications.</p>
+                </div>
+            </div>
+
+            <div class="timeline-box" data-code="javascript">
+                <img src="./assets/js.png">
+                <div>
+                    <h2>JavaScript - 1995</h2>
+                    <p>Created for the programming of web pages, allowing for interactive and dynamic elements.</p>
+                </div>
+            </div>
+
+            <div class="timeline-box" data-code="php">
+                <img src="./assets/php.png">
+                <div>
+                    <h2>PHP - 1995</h2>
+                    <p>
+                        Mainly used for server-side web development. 
+                        Supported millions of websites at its prime and is still occasionally used today.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-box" data-code="csharp">
+                <img src="./assets/csharp.png">
+                <div>
+                    <h2>C# - 2000</h2>
+                    <p>
+                        An object-oriented language developed by Microsoft to compete with Java.
+                        Used for enterprise applications and game development in the Unity game engine.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-box" data-code="rust">
+                <img src="./assets/rust.png">
+                <div>
+                    <h2>Rust - 2010</h2>
+                    <p>A contemporary language built for performance and safety. Mainly used for systems programming.</p>
+                </div>
+            </div>
+
+            <svg id="svg-lines"></svg>
+        </div>
+
+    </div>
+    
+    <div id="code-display" class="hidden">
+        <div>
+            <p>Code Sample</p>
+            <button id="code-display-close-button">×</button>
+        </div>
+        <pre><code id="code-sample"></code></pre>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/fortran.min.js"></script>
+    <script src="https://unpkg.com/highlightjs-cobol/dist/cobol.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/basic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/smalltalk.min.js"></script>
+
+    <script src="./timeline.js"></script>
+</body>
+</html>
