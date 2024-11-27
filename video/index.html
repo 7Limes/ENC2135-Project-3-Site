@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Project 3 Site</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="description" content=""/>
+    <link rel="stylesheet" type="text/css" href="../style.css"/>
+    <link rel="icon" href="../assets/favicon.ico">
+
+    <style>
+        .centered {
+            position: absolute;
+            margin: auto;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .centered iframe {
+            border-radius: 10px;
+        }
+
+        p {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="/">Home</a></li>
+        <li><a href="/timeline">Timeline</a></li>
+        <li class="navbar-active"><a href="./">Video</a></li>
+
+    </ul>
+    <h1>Video</h1>
+    <p>This video provides an analysis of the C programming language and its effects on modern languages.</p>
+    <div class="centered">
+        <iframe width="1024" height="576" src="https://www.youtube.com/embed/94fJ2C9N0xs?si=jlZRHe09019GBTtZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
