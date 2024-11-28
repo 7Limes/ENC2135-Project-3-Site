@@ -75,10 +75,11 @@
     box-sizing: border-box;
     transition: 0.25s;
     border: 1px solid #ccc;
+    cursor: pointer;
 }
 
 .timeline-box img {
-    margin-right: 10px;
+    margin-right: 20px;
     border-radius: 3px;
 }
 
@@ -93,6 +94,7 @@
 
 .timeline-box div {
     width: 80%;
+    line-height: 25px;
 }
 
 #svg-lines {
