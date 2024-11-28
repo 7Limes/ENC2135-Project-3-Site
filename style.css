@@ -43,3 +43,52 @@ h1 {
     margin-left: 15px;
     text-shadow: 2px 2px 5px #272727;
 }
+
+
+.home-box-container {
+    margin: auto;
+    width: 40%;
+}
+
+.home-box-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.home-box {
+    display: flex;
+    align-items: left;
+    overflow: hidden;
+    padding: 30px 30px;
+    background-color: #222;
+    border: 1px solid white;
+    border-radius: 30px;
+    transition: 0.25s;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.home-box img {
+    margin-right: 30px;
+    width: 20%;
+}
+
+.home-box div {
+    width: 80%;
+}
+
+.home-box p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.home-box:hover {
+    background-color: #06a764;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 10px;
+}
