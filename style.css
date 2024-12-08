@@ -57,7 +57,7 @@ h1 {
 
 .home-box {
     display: flex;
-    align-items: left;
+    align-items: center;
     overflow: hidden;
     padding: 30px 30px;
     background-color: #222;
@@ -71,6 +71,7 @@ h1 {
 .home-box img {
     margin-right: 30px;
     width: 20%;
+    height: auto;
 }
 
 .home-box div {
